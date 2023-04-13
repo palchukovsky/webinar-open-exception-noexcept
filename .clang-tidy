@@ -1,0 +1,33 @@
+Checks: >
+  -*,
+  bugprone-*,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-exception-escape,
+  clang-analyzer-*,
+  concurrency-*,
+  cppcoreguidelines-*,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -cppcoreguidelines-avoid-non-const-global-variables,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+  -cppcoreguidelines-owning-memory,
+  -cppcoreguidelines-avoid-c-arrays,
+  misc-*,
+  -misc-non-private-member-variables-in-classes,
+  -misc-const-correctness,
+  modernize-*,
+  -modernize-use-trailing-return-type,
+  -modernize-avoid-c-arrays,
+  performance-*,
+  -performance-noexcept-move-constructor,
+  portability-*,
+  readability-*,
+  -readability-identifier-length,
+  -readability-named-parameter,
+  -readability-magic-numbers,
+  -readability-convert-member-functions-to-static
+
+# WarningsAsErrors: "*"
+
+FormatStyle: file
+
+HeaderFilterRegex: "."
